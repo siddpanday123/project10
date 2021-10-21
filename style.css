@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background-color: rgba(36, 35, 35, 0.767);
+}
+
+.counter{
+    font-size: 140px;
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+font-size: 40px;
+color: rgb(236, 217, 217);
+
+}
+
+.button{
+font-size: 25px;
+font-weight: bold;
+color: white;
+margin: 40px 80px;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+#stop{
+    background-color: rgb(196, 86, 86);
+    border: 1px solid aqua;
+}
+
+#start{
+    background-color: rgb(78, 180, 78);
+    border: 1px solid aqua;
+}
+
+#reset{
+    background-color: rgba(199, 199, 15, 0.644);
+    border: 1px solid aqua;
+}
+ 
+.button:hover{
+    box-shadow: 2px 3px 3px 4px rgba(8, 8, 8, 0.315);
+    transition: all .3s ease-in;
+}
+
+
+
